@@ -28,7 +28,8 @@ const CreateUser = () => {
             <input  type="text"
                 required
                 className="form-control"
-                defaultValue={username}
+                // defaultValue={username}
+                value={username}
                 onChange={changeUsername}
                 />
           </div>
